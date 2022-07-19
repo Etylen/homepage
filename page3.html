@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head> <title> Page3 </title>
+    
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+    <script>
+    function showImage() {
+    document.getElementById('loadingImage').style.visibility = document.getElementById('loadingImage').style.visibility ==
+    'visible' ? 'hidden' : 'visible';
+    }   
+    </script>
+</head>
+
+<body>
+    
+<h1>This is page 3</h1>
+<p> This is the last page of the site, so there won't be anything interesting here, only for the main reason why is this site so boring:</p>
+<hr>
+<div>
+<input id="text" type="button" value="REASON" onclick="showImage();" />
+Click me
+</div>
+
+
+<div>
+    <input id="text" type="button" value="REASON Hide" onclick="showImage();" />
+    <img id="loadingImage" src="reason.jpg" style="visibility:hidden" />
+</div>
+
+
+<footer>
+    <p> <a href="./index.html"> To homepage </p>
+</footer>
+</body>
